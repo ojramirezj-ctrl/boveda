@@ -1,0 +1,12 @@
+{
+  "name": "Bóveda Personal",
+  "short_name": "Bóveda",
+  "description": "Gestor de contraseñas compatible con KeePass (.kdbx), cifrado en el dispositivo.",
+  "lang": "es",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eef2f1",
+  "theme_color": "#0e6b61",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

@@ -1,0 +1,32 @@
+BÓVEDA PERSONAL - versión independiente
+========================================
+
+Esta carpeta funciona sola, sin Claude ni ningún otro servicio.
+Todo (cifrado, librerías, ícono) está dentro de estos 4 archivos:
+
+  index.html     la aplicación completa
+  sw.js          permite usarla sin internet una vez instalada
+  manifest.json  permite "Agregar a la pantalla de inicio"
+  icon.svg       ícono
+
+TUS DATOS
+- Se guardan como un archivo KeePass estándar (.kdbx), cifrado con AES-256 + Argon2id.
+- Si algún día esta app deja de funcionar, abre tu respaldo .kdbx con:
+    Android: KeePassDX (gratis)      iPhone: KeePassium o Strongbox
+    PC: KeePassXC o KeePass 2
+- Haz el respaldo semanal (la app te avisa) y guárdalo fuera del celular.
+
+CÓMO USARLA EN EL CELULAR (recomendado: publicarla gratis una vez)
+Opción A - GitHub Pages (gratis):
+  1. Crea una cuenta en github.com y un repositorio nuevo (puede ser privado con plan Pro, o público: la app no contiene datos).
+  2. Sube estos 4 archivos.
+  3. Settings > Pages > Branch: main > Save. Te da una dirección https://...github.io/...
+  4. Ábrela en el celular y elige "Agregar a pantalla de inicio" / "Instalar app".
+  Desde ese momento funciona sin internet.
+Opción B - Netlify Drop (gratis): arrastra esta carpeta en app.netlify.com/drop.
+
+Opción C - Solo en el PC: abre index.html con doble clic en Chrome o Edge.
+  (En el celular, abrir el archivo directamente desde "Archivos" no suele funcionar bien.)
+
+Nota: la bóveda se guarda en el navegador de cada dispositivo/dirección.
+Si cambias de dirección (otro hosting) o de celular, usa "Abrir archivo .kdbx" con tu respaldo.
